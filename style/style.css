@@ -1,0 +1,395 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgba(33, 33, 33, 1);
+}
+
+a:hover{
+    color: rgba(33, 150, 243, 1);
+}
+
+a:focus{
+    color: rgba(33, 150, 243, 1);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+    font-size: 14px;
+}
+
+.hiden{
+    display: none;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+
+
+
+
+.navigation-bar{
+    background: rgba(255, 255, 255, 1);
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 215px 25px 215px;
+}
+
+.navigation{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    margin-left: 50px;
+    font-weight: 500;
+    
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+
+.adress{
+    color: rgba(117, 117, 117, 1);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+}
+
+.email{
+    margin-right: 50px;
+}
+
+.logo{
+    margin-right: 43px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+}
+
+.color-blue{
+    color: rgba(33, 150, 243, 1);
+
+}
+
+
+
+
+.hero-section{
+     
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    height: 600px;
+    background: rgba(47, 48, 58, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.365;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.make-order{
+    width: 216px;
+    height: 50px;
+    background: rgba(33, 150, 243, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px;
+    margin: 30px auto 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+}
+
+
+
+.feature-list{
+    width: fit-content;
+    margin: 120px auto 0;
+    gap: 30px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.feature{
+    width: 270px;
+}
+
+.feature-mean{
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+
+.feature-title{
+    line-height: 0.98;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(33, 33, 33, 1);
+}
+
+
+
+
+.portfolio-img{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.portfolio{
+    padding-bottom: 94px;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    padding-top: 94px;
+}
+
+.portfolio > h2{
+    margin-bottom: 50px;
+}
+
+
+
+
+.team{
+     
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    background: rgba(245, 244, 250, 1);
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.team > h2{
+    margin-bottom: 50px;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.part-of-team{
+    background: #FFFFFF;
+    width: 270px;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+     
+    padding: 0;
+}
+
+.team-member-name{
+    margin: 30px auto 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.team-member-post{
+    margin: 10px auto 30px;
+
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+
+
+
+.contacts{
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    background: rgba(47, 48, 58, 1);
+    height: 192px;
+    padding-top: 60px;
+    margin-bottom: -5px;
+}
+
+.adress-list{
+    margin-left: 213px;
+}
+
+.footer{
+    height: 31px;
+    margin-bottom: 20px;
+}
+
+.logo.footer{
+    color: rgba(255, 255, 255, 1);
+}
+
+.address-footer{
+    margin-bottom: 9px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.email-tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.map-adress{
+    color: rgba(255, 255, 255, 1);
+}
+
+.map-adress:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.nav-button{
+    padding: 6px 22px;
+    background: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    border: 0px;
+    color: rgba(33, 33, 33, 1);
+}
+
+.nav-button:hover{
+    background: rgba(33, 150, 243, 1);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-button:focus{
+    background: rgba(33, 150, 243, 1);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.button-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+
+
+.portfolio-list-of-projects{
+    margin: 0 auto 94px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    gap: 30px;
+    width: 1200px;
+}
+
+.portfolio-list-of-projects>li{
+    width: 370px;
+    height: 404px;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.project-name{
+    width: 322px;
+    margin: 20px 24px 0;
+
+
+     
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: rgba(33, 33, 33, 1);
+}
+
+.project-category{
+    width: 322px;
+    margin: 4px 24px 20px;
+
+     
+    
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
