@@ -328,6 +328,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-left: 32px;
 }
 
 .team-soc-icon{
